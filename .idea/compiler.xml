@@ -3,7 +3,7 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
       <module name="core" target="1.7" />
-      <module name="utils-mvp" target="1.7" />
+      <module name="utils" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

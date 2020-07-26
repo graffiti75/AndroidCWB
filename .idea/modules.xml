@@ -7,7 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/assets/assets.iml" filepath="$PROJECT_DIR$/assets/assets.iml" />
       <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" group="AndroidCWB/core" />
       <module fileurl="file://$PROJECT_DIR$/home/home.iml" filepath="$PROJECT_DIR$/home/home.iml" group="AndroidCWB/home" />
-      <module fileurl="file://$PROJECT_DIR$/utils-mvp/utils-mvp.iml" filepath="$PROJECT_DIR$/utils-mvp/utils-mvp.iml" group="AndroidCWB/utils-mvp" />
+      <module fileurl="file://$PROJECT_DIR$/utils/utils.iml" filepath="$PROJECT_DIR$/utils/utils.iml" group="AndroidCWB/utils" />
     </modules>
   </component>
 </project>
