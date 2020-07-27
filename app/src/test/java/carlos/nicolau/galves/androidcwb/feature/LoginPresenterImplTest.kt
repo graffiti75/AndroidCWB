@@ -27,7 +27,7 @@ class LoginPresenterImplTest {
         presenter.onClickButtonLogin("", "")
 
         Mockito.verify(view).showLoading()
-        Mockito.verify(getUserUseCase.execute("", ""))
+        Mockito.verify(getUserUseCase).execute("", "")
         Mockito.verify(view).hideLoading()
     }
 }

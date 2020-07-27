@@ -7,6 +7,8 @@ class LoginPresenterImpl(private val getUserUserCase: IGetUserUseCase)
     : BasePresenter<LoginPresenter.View>(), LoginPresenter.Presenter {
 
     override fun onClickButtonLogin(username: String, password: String) {
+        mView?.showLoading()
         val user = getUserUserCase.execute(username, password)
+        mView?.hideLoading()
     }
 }
