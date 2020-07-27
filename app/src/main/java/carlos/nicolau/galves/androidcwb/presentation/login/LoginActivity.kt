@@ -3,7 +3,7 @@ package carlos.nicolau.galves.androidcwb.presentation.login
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import carlos.nicolau.galves.androidcwb.R
-import carlos.nicolau.galves.core.interactors.GetUserUseCase
+import carlos.nicolau.galves.core.interators.GetUserUseCase
 import kotlinx.android.synthetic.main.activity_login.*
 
 class LoginActivity : AppCompatActivity(), LoginPresenter.View {

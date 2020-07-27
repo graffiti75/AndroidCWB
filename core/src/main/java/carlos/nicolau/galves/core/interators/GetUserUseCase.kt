@@ -1,4 +1,4 @@
-package carlos.nicolau.galves.core.interactors
+package carlos.nicolau.galves.core.interators
 
 import carlos.nicolau.galves.core.domain.User
 import carlos.nicolau.galves.core.interators.IGetUserUseCase
